@@ -1,5 +1,5 @@
-from __future__ import print_function
 import importlib
+
 
 ##### 
 # Computer Science and Software Engineering
@@ -36,13 +36,16 @@ import os.path
     
 import example0, example1, example2, example3
 import example4, example5, example6, example7
-#import team0, team1, team2, team3, team4
-#import team5, team6, team7, team8, team9
-#import team10, team11, team12, team13, team14
+import team0, team1, team2, team3, team4
+import team5, team6, team7, team8, team9
+import team10, team11, team12, team13, team14
+import team15, team16, team17, team18, team19
+import team20, team21, team22, team23
 betray = example1
 collude = example0
 
-modules = [example0, example1, example2, example3, example4, example5, example6, example7,]
+modules = [example0, example1, example2, example3, example4, example5, example6, example7,team0, team1, team2, team3, team4,
+        team5, team6, team7, team8, team9,team10, team11, team12, team13, team14,team15, team16, team17, team18, team19,team20, team21, team22, team23]
 for module in modules:
     importlib.reload(module)
     print ('reloaded',module)
